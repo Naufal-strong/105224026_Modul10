@@ -29,7 +29,6 @@ class Anggota {
         return Objects.equals(idAnggota, anggota.idAnggota);
     }
 
-    // Override hashCode()
     @Override
     public int hashCode() {
         return Objects.hash(idAnggota);
